@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎨 Fun Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Welcome to My Interactive Playground 🎮</h1>
+    <p>Click, play, and explore JavaScript magic ✨</p>
+  </header>
+
+  <!-- Part 1: Event Handling -->
+  <section class="card">
+    <h2>🖱️ Event Handling Zone</h2>
+    <p>Click the magic button and see what happens 👇</p>
+    <button id="messageBtn">Click Me! 🎉</button>
+    <p id="messageOutput"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section class="card">
+    <h2>🎮 Interactive Elements</h2>
+
+    <!-- Dark Mode -->
+    <div class="feature">
+      <h3>🌗 Dark Mode Toggle</h3>
+      <button id="toggleTheme">Switch Theme</button>
+    </div>
+
+    <!-- Counter -->
+    <div class="feature">
+      <h3>🔢 Fun Counter</h3>
+      <p>Current Count: <span id="counterValue">0</span></p>
+      <button id="incrementBtn">➕ Add</button>
+      <button id="decrementBtn">➖ Subtract</button>
+    </div>
+
+    <!-- FAQ -->
+    <div class="feature">
+      <h3>❓ FAQ Section</h3>
+      <p id="faqQuestion" class="faq-question">👉 What is JavaScript?</p>
+      <p id="faqAnswer" class="faq-answer" style="display: none;">
+        🎉 JavaScript is the language that makes web pages come alive!
+      </p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section class="card">
+    <h2>📋 Sign Up Form</h2>
+    <p>Fill in your details and join the fun club 🎊</p>
+    <form id="signupForm">
+      <label>
+        👤 Name:<br>
+        <input type="text" id="name" placeholder="Enter your name">
+      </label><br><br>
+
+      <label>
+        📧 Email:<br>
+        <input type="email" id="email" placeholder="Enter your email">
+      </label><br><br>
+
+      <label>
+        🔑 Password:<br>
+        <input type="password" id="password" placeholder="Enter a strong password">
+      </label><br><br>
+
+      <button type="submit">✅ Join Now</button>
+    </form>
+    <p id="formFeedback"></p>
+  </section>
+
+  <footer>
+    <p>💡 Built with HTML, CSS, and JavaScript — by Me 😎</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

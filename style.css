@@ -1,0 +1,148 @@
+/* 🎨 Fun Interactive Web Page Styling */
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode */
+.dark-mode {
+  background: #121212;
+  color: #f9f9f9;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c, #ff9472);
+  color: white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Card sections */
+.card {
+  background: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.dark-mode .card {
+  background: #1e1e1e;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.feature {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg, #6a5af9, #00c6ff);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* FAQ section */
+.faq-question {
+  background: #eee;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.faq-question:hover {
+  background: #ddd;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f5f5f5;
+  border-left: 4px solid #6a5af9;
+  border-radius: 10px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6a5af9;
+  box-shadow: 0 0 6px rgba(106, 90, 249, 0.5);
+}
+
+#formFeedback {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ff9472;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 2rem;
+}
+
